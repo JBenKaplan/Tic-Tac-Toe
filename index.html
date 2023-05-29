@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <h2>Tic-Tac-Toe</h2>
+  </header>
+  <h1>
+    <section class="messages">
+      <div id="turn">O Begins!</div>
+      <div class="winnerBanner" id="winnerBanner">
+        <div id="winnerWinner"></div>
+        <button id="resetButton" style="visibility: show">Reset</button>
+      </div>
+      <icon class="AI"></icon>
+      <icon class="2P"></icon>
+    </section>
+  </h1>
+  <body>
+    <!-- titles are table rows -->
+    <table class="scores">
+      <tr>
+        <th>X</th>
+        <th>O</th>
+        <th>D</th>
+      </tr>
+      <tr>
+        <td id="xScore">0</td>
+        <td id="oScore">0</td>
+        <td id="dScore">0</td>
+      </tr>
+    </table>
+    <div class="grid">
+      <div class="box" id="0"></div>
+      <div class="box" id="1"></div>
+      <div class="box" id="2"></div>
+      <div class="box" id="3"></div>
+      <div class="box" id="4"></div>
+      <div class="box" id="5"></div>
+      <div class="box" id="6"></div>
+      <div class="box" id="7"></div>
+      <div class="box" id="8"></div>
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
